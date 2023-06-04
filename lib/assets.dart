@@ -78,6 +78,12 @@ String clctbeachpic = 'assets/images/clctbeach.jpg';
 String maanachirapic = 'assets/images/manachira.jpg';
 String tussarapic = 'assets/images/clctwaterfalls.jpg';
 String plantpic = 'assets/images/planet.jpg';
+//wayand
+String meenmutypic = 'assets/images/meenmutty.jpg';
+String chembrapic = 'assets/images/chembra.jpg';
+String banasurapic = 'assets/images/banasura.jpg';
+String wayanadpic = 'assets/images/wayanad.jpg';
+String edakkalpic = 'assets/images/edakkal.jpg';
 //HEADLINES
 
 String sreeTitle =
@@ -481,3 +487,40 @@ String tussaratitles =
     'Thusharagiri Falls is a waterfall located in Kozhikode district in the Indian state of Kerala, India. Two streams originating from the Western Ghats meet here to form the Chalippuzha River.\n'
     '\n'
     'Height: 75 m';
+
+//wayanaad
+String banasuradamtitles =
+    'Widely renowned for being the largest earthen dam in India and the second largest in entire Asia, the Banasura Sagar Dam is heaven for nature lovers that welcomes people from all walks of life to spend some time in the midst of lushness. You can click thousands of pictures with a perfect backdrop surrounded by gushing waterfalls, majestic hills, and diverse flora and fauna.\n'
+    '\n'
+    '> Entry Fee: INR 10 per person.\n'
+    '> Timings: Anytime between 9:00 AM and 5:00 PM.\n'
+    '> Exploration Time: 2 hours.\n'
+    '> Best Time to Visit: September to March.';
+String edakkaltitles =
+    'Step back in time and take a look into the era of the stone age with a visit to the Edakkal Caves. Perched on the Ambukuthi Hills at a height of 1200 meters above sea level, the Edakkal Caves are considered as the most sought-after tourist destination in Wayanad that features prehistoric inscriptions and wall carvings from the Neolithic settlement. Owing to its archaeological significance, it attracts history buffs in large numbers every year from all around the world.\n'
+    '\n'
+    '> Entry Fee: INR 20 per person for adults, INR 40 per person for foreigners.\n'
+    '> Timings: Anytime from 9:30 AM to 4:30 PM on all days.\n'
+    '> Exploration Time: 2-3 hours.\n'
+    '> Best Time to Visit: November to March';
+String cembratitles =
+    'The highest mountain peak in the Wayanad hill range, the Chembra Peak invites nature admirers to adore its majestic beauty along with enjoying a spectacular view of the Wayanad, Nilgiri, Malappuram, and Kozhikode districts from a height of 2100 meters above sea level. It’s a perfect weekend getaway option for locals as well as tourists for a good, half-day excursion and can also be visited by adventure enthusiasts looking to bring out the best of adventure in themselves.\n'
+    '\n'
+    '> Entry Fee: The entry fee is INR 20 per person for Indians and INR 30 per person for foreigners. Coming to the trekking charges, it costs INR 750 for a group of 10 Indian nationals and INR 1500 for a group of 5 foreign nationals.\n'
+    '> Timings: Anytime from 7:00 AM to 5:00 PM.\n'
+    '> Exploration Time: 3-4 hours.\n'
+    '> Best Time to Visit: September to March';
+String wayandtitles =
+    ' Wayanad Wildlife Sanctuary is an esteemed natural habitat that provides a home to a wide variety of fauna. This includes Tigers, Elephants, Langurs, Indian Bison, Leopards, Jungle Cats, Wild Dogs, Deer, and many more. Here you can also spot endangered species of birds, butterflies, and insects along with flora that are no less than a treat to watch.\n'
+    '\n'
+    '> Entry Fee: INR 10 per person for adults, INR 5 per person for children under 12 years of age, and INR 100 per person for foreigners. In case you’re carrying a still camera or a video camera with you, you’ll need to pay extra for it.\n'
+    '> Timings: Anytime between 7:00 AM and 5:00 PM.\n'
+    '> Exploration Time: 2-3 hours.\n'
+    '> Best Time to Visit: October to February';
+String meenmuttytitles =
+    'Surrounded by verdant green forests, this three-tiered waterfall falls from a height of 1000 feet and provides its visitors with a fantastic view that is a sight to behold. To reach the waterfalls, you need to trek through the thick jungles for nearly 2 km to enjoy a kind of adventure that is an experience in itself.\n'
+    '\n'
+    '> Entry Fee: INR 30 per person for adults, INR 15 per person for children, INR 60 per person for foreigners, and INR 75 for a still camera.\n'
+    '> Timings: Anytime between 9:00 AM and 5:30 PM.\n'
+    '> Exploration Time: 2-3 hours.\n'
+    '> Best Time to Visit: October to May';

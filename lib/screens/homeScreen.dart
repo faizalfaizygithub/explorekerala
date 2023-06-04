@@ -2,11 +2,21 @@ import 'package:explore_keralam/districtNames.dart';
 import 'package:flutter/material.dart';
 
 class HomeScreen extends StatelessWidget {
+  const HomeScreen({super.key});
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        backgroundColor: const Color.fromRGBO(0, 0, 0, 0.541),
+        actions: [
+          IconButton(
+            onPressed: () {},
+            icon: const Icon(Icons.search),
+          ),
+        ],
+        centerTitle: true,
+        elevation: 10,
+        backgroundColor: Color.fromARGB(134, 20, 23, 24),
         title: const Text(
           'Select your Place',
           style: TextStyle(fontSize: 25),
@@ -69,9 +79,21 @@ class HomeScreen extends StatelessWidget {
               buttonAction: () {
                 Navigator.of(context).pushNamed('/clctpage');
               }),
-          Districts(buttonText: 'Wayanad', buttonAction: () {}),
-          Districts(buttonText: 'Kannur', buttonAction: () {}),
-          Districts(buttonText: 'Kasaragod', buttonAction: () {}),
+          Districts(
+              buttonText: 'Wayanad',
+              buttonAction: () {
+                Navigator.of(context).pushNamed('/wayanadpage');
+              }),
+          Districts(
+              buttonText: 'Kannur',
+              buttonAction: () {
+                Navigator.of(context).pushNamed('/kannurpage');
+              }),
+          Districts(
+              buttonText: 'Kasaragod',
+              buttonAction: () {
+                Navigator.of(context).pushNamed('/ksdpage');
+              }),
         ],
       ),
     );

@@ -11,6 +11,7 @@ import 'package:explore_keralam/screens/splashScreen.dart';
 import 'package:explore_keralam/screens/homeScreen.dart';
 import 'package:explore_keralam/screens/trissur.dart';
 import 'package:explore_keralam/screens/tvm.dart';
+import 'package:explore_keralam/screens/wayanad.dart';
 import 'package:flutter/material.dart';
 
 class MyApp extends StatelessWidget {
@@ -20,7 +21,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       routes: {
-        '/homePage': (context) => HomeScreen(),
+        '/homePage': (context) => const HomeScreen(),
         '/tvmPage': (context) => Tvm(),
         '/kollampage': (context) => Kollam(),
         '/pathanamthittapage': (context) => Pathanamthitta(),
@@ -32,6 +33,7 @@ class MyApp extends StatelessWidget {
         '/pkdpage': (context) => Palakkad(),
         '/malappurampage': (context) => Malappuram(),
         '/clctpage': (context) => Kozhikode(),
+        '/wayanadpage': (context) => Wayanad(),
       },
       debugShowCheckedModeBanner: false,
       home: const SplashScreen(),

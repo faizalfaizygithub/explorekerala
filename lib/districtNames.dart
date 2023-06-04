@@ -12,7 +12,10 @@ class Districts extends StatelessWidget {
       minLeadingWidth: 4,
       title: ElevatedButton(
         style: ButtonStyle(
-            backgroundColor: MaterialStateProperty.all(Colors.black54)),
+          backgroundColor: MaterialStateProperty.all(
+            Color.fromARGB(136, 10, 86, 88),
+          ),
+        ),
         onPressed: buttonAction,
         child: Text(
           buttonText,
