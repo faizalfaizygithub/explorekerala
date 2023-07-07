@@ -3,6 +3,8 @@ import 'package:explore_keralam/details.dart';
 import 'package:flutter/material.dart';
 
 class Kannur extends StatelessWidget {
+  const Kannur({super.key});
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -19,33 +21,32 @@ class Kannur extends StatelessWidget {
         children: [
           Deatails(
             firstHead: 'Best 5 attractions of Kannur',
-            caption: kozhikodetitles,
-            heading: '1.Kozhikode Beach',
-            photo: clctbeachpic,
+            caption: kannurforttitles,
+            heading: '1.St. Angelo Fort/ Kannur Fort',
+            photo: kannurfortpic,
           ),
           Deatails(
             firstHead: '',
-            caption: manachiralaketitles,
-            heading: '2.Manachira Lake',
-            photo: maanachirapic,
+            caption: pythalmalatitles,
+            heading: '2.Paithalmala',
+            photo: paithalmalapic,
           ),
           Deatails(
             firstHead: '',
-            caption: planttitles,
-            heading: '3.Kozhikode Planetarium / Regional Science Centre',
-            photo: plantpic,
+            caption: payyambalambeachtitles,
+            heading: '3.Payyambalam Beach',
+            photo: kannurbeachpic,
           ),
           Deatails(
               firstHead: '',
-              caption: rajatitles,
-              heading:
-                  '4.  Pazhassi Raja Museum and Krishnan Menon Art Gallery',
-              photo: rajapic),
+              caption: palakkayamthatttitles,
+              heading: '4. Palakkayamthattu',
+              photo: palakkayampic),
           Deatails(
               firstHead: '',
-              caption: tussaratitles,
-              heading: '5. Thusharagiri Waterfalls',
-              photo: tussarapic),
+              caption: arakkaltitiles,
+              heading: '5. Arakkal Museum',
+              photo: arakkalmuspic),
           ElevatedButton.icon(
               style: ButtonStyle(
                   backgroundColor: MaterialStateProperty.all(Colors.black54)),

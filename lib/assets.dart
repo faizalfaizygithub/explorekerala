@@ -84,6 +84,20 @@ String chembrapic = 'assets/images/chembra.jpg';
 String banasurapic = 'assets/images/banasura.jpg';
 String wayanadpic = 'assets/images/wayanad.jpg';
 String edakkalpic = 'assets/images/edakkal.jpg';
+
+//kannur
+String kannurfortpic = 'assets/kimages/kannurfort.jpg';
+String kannurbeachpic = 'assets/kimages/beach.jpg';
+String arakkalmuspic = 'assets/kimages/mus.jpg';
+String paithalmalapic = 'assets/kimages/paithalmala.jpg';
+String palakkayampic = 'assets/kimages/palakkayam.jpg';
+
+//ksd
+String ksdfortpic = 'assets/kimages/ksdfort.jpg';
+String ksdbeachpic = 'assets/kimages/ksdbeach.jpg';
+String bekalfoertpic = 'assets/kimages/bekalfort.jpg';
+String parappapic = 'assets/kimages/parappa.jpg';
+String ranipurampic = 'assets/kimages/rani.jpg';
 //HEADLINES
 
 String sreeTitle =
@@ -524,3 +538,58 @@ String meenmuttytitles =
     '> Timings: Anytime between 9:00 AM and 5:30 PM.\n'
     '> Exploration Time: 2-3 hours.\n'
     '> Best Time to Visit: October to May';
+//kannur
+
+String pythalmalatitles =
+    'Paithalmala is a hill station in the Kannur district of Kerala in India, located near Pottenplave. At a height of 1372 m above sea level, it is the highest geographic peak in Kannur. It is located 40 km from Taliparamba and 65 km from Kannur.\n'
+    '\n'
+    '> Address: Kudiyanmala - Pallikunnu Rd, Naduvil, Kerala 670582.\n'
+    '> Time : 9am to 8pm.n'
+    '> Elevation: 1,372 m';
+String kannurforttitles =
+    'St Angelos Fort is definitely one of the most popular and frequently visited attractions of Kannur and for more reasons than one. The polished yet prehistoric structure of this fortress oozes with unadulterated elegance and overwhelming power. Standing ashore in the Arabian sea, St Angelos Fort enjoys a panoramic and unobstructed view of the diorama created by the merger of the magnetic waves and the azure waters. It also overlooks the mesmerising Mopilla Bay, a natural harbour.'
+    'St Angelos Fort is mainly famous for the gripping history and the intriguing tales it has to tell. This fort was a point of interest for many dynasties of domestic as well as the international origin and has seen many bitter battles in the quest to conquer it. The Portuguese Viceroy, Dom Francisco de Almeida had imprisoned his successor, Alfonso de Albuquerque because he did not want to give up the reins of his power. This led to a series of bitter events and conspiracies that have been etched in the history of Portugal as well as Kannur forever. Walking around the walls of this majestic fort, you can almost picture the battles that this fortress has seen. There are tombstones of the soldiers who lost their lives fighting for the fort, barracks and an old chapel here that you can explore. Kannurs first ever lighthouse also stands next to the fort and adds to its already hypnotic glory\n'
+    '>> Timings : 8:00 AM - 6:00 PM\n'
+    '>> Time Required : Less than 1 hour\n'
+    'Entry Fee : There is no entry fee to explore this fort. However, INR 20 is charged as a parking fee, and a toll of INR 20 is levied for using the Cantonment Road.';
+String payyambalambeachtitles =
+    'The impeccably unspoiled Payyabalam beach is adorned with sparkling pearls of golden sand and foamy white waves of the Arabian Sea. The highlight of Kannur and one of the many beautiful beaches of Kerala, the Payyabalam beach has an incredibly peaceful and inviting aura. Unwind after a long week by relaxing at this remarkable seashore and find yourself mesmerized by its elegant beauty and contagious calm';
+String arakkaltitiles =
+    ' The Arakkal Museum in Kannur city is one of the most significant and frequently visited attractions of the south that celebrates the memory and grandeur of Keralas only Muslim royal family- the Arakkal Ali Rajas. \n'
+    '>> Timings : 9:30 AM - 5:30 PM\n'
+    '>> Time Required : 1-2 hours\n'
+    '>> Entry Fee : INR 10';
+String palakkayamthatttitles =
+    'Tucked away in the verdant greenery of the Western Ghats and soaring at a dizzying altitude of 3500 feet above sea level, Palakayyam Thattu is one of the most beautiful hill stations in the entire state of Kerala';
+//ksd titles
+
+String bekalforttitles =
+    'The 300 years old defensive mechanism which is the largest and well-preserved fort makes it one of the best Kasaragod tourist place. You can get an enthralling view of the mesmerizing Arabian sea from the fort’s observation tower which was once used to fire the cannons'
+    'The impressive strength of the fort brings a herd of tourists to witness the glorious past and be awestruck. Visit an old mosque near this fort to dive deeper into history\n.'
+    '>> Location: A Half hour away south of Kasaragod at a distance of 16 kilometers, and exact address is Kasaragod Road, PO Bekal Fort, Beside Bekal Fort Railway Station Dist, Bekal, Kerala 671316\n.'
+    '>> Timings: 8:00 am to 5:00 pm\n'
+    '>> Entry fee: The entrance fee is INR 5 per person for Indians and INR 100 for foreign nationals.';
+String parappatitles =
+    'A paradise for nature lovers and a fine ranked in the list of tourist places in Kasaragod. It is a natural habitat of some underrated fauna like a slow turtle, the prickly porcupine, Malabar hornbill, Slender loris, and the cute wild jungle cat\n'
+    'If wilderness attracts you, this locale is a must visit for some great wildlife photography. Hike around the sanctuary and click around some rare species.\n'
+    '>> Location: Approximately 50 kilometers away from Kasaragod.\n'
+    '>> Timings: 8:00 am to 4:00 pm.\n'
+    '>> Entry fee: None.';
+String ranipuramhilstitles =
+    'Previously known as Madathumala, situated 750 meters above sea level, this destination boasts of some of the marvelous trekking trails of about two and a half kilometers with a cave at the summit. If seeking leisure the greens of shola woods and monsoon forests have all their natural beauty to offer you.\n'
+    'A combination of both adventure and leisure marks this place to be counted as one of the considerable tourist places on Kasaragod. Be it an adventure folk or solace seeker, this is one destination for all kinds of travelers.\n'
+    '>> Location: 55 kilometers away from Kasaragod.\n'
+    '>> Timings: This place can be visited anytime, and is open for all.\n'
+    '>> Entry fee: None.';
+String ksdbeachtitles =
+    'An ideal locale for a peaceful vacay! If rare and unexplored fauna catches your attention then you must visit this beach in the monsoon season to watch some olive ridley turtles. Watch the sand turn golden and the sun setting with vivid colors.\n'
+    'Just sit in silence and see the wonders nature has to offer or have a frolicking time with your troop at one of the best tourist places in Kasaragod.\n'
+    '>> Location: Just one hour away from Kasaragod.\n'
+    '>> Timings: You can visit the beach whenever you want, as it is all time open.\n'
+    '>> Entry fee: None.';
+String ksdfoerttitles =
+    'Also, subtly known as the Kanhangad fort. The construction of this fort is what it makes it eye candy for the passerby tourists. What makes it so popular is its chain of forts, that came up in Ikkeri dynasty. Visit this monument to unveil the past.\n'
+    'If seeking some spiritual enlightenment visit the popular spiritual center Nithya Anandashram located in the proximity of this locale. Additionally, this is one of the least explored tourist places in Kasaragod and hails out to the history lovers.\n'
+    '>> Location: 28.3 Kilometers away from Kasaragod.\n'
+    '>> Timings: The fort is 24 hours open for all.\n'
+    '>> Entry fee: The entrance fee is INR 5 per adult.';

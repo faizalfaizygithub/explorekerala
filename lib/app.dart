@@ -2,8 +2,10 @@ import 'package:explore_keralam/screens/alappuzha.dart';
 import 'package:explore_keralam/screens/calicut.dart';
 import 'package:explore_keralam/screens/ekm.dart';
 import 'package:explore_keralam/screens/idukki.dart';
+import 'package:explore_keralam/screens/kannur.dart';
 import 'package:explore_keralam/screens/kollam.dart';
 import 'package:explore_keralam/screens/kottayam.dart';
+import 'package:explore_keralam/screens/ksd.dart';
 import 'package:explore_keralam/screens/malappuram.dart';
 import 'package:explore_keralam/screens/palakkad.dart';
 import 'package:explore_keralam/screens/pathanamthitta.dart';
@@ -34,6 +36,8 @@ class MyApp extends StatelessWidget {
         '/malappurampage': (context) => Malappuram(),
         '/clctpage': (context) => Kozhikode(),
         '/wayanadpage': (context) => Wayanad(),
+         '/kannurpage': (context) => Kannur(),
+         '/ksdpage': (context) => Kasargod(),
       },
       debugShowCheckedModeBanner: false,
       home: const SplashScreen(),
