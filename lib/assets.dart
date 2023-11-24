@@ -98,6 +98,24 @@ String ksdbeachpic = 'assets/kimages/ksdbeach.jpg';
 String bekalfoertpic = 'assets/kimages/bekalfort.jpg';
 String parappapic = 'assets/kimages/parappa.jpg';
 String ranipurampic = 'assets/kimages/rani.jpg';
+
+//Baground photos
+
+String kl01 = 'assets/bgpic/tvmbg1.jpg';
+String kl02 = 'assets/bgpic/kollmbg.jpg';
+String kl03 = 'assets/bgpic/pathanambg.jpg';
+String kl04 = 'assets/bgpic/alappybg.jpg';
+String kl05 = 'assets/bgpic/kottymbg.jpg';
+String kl06 = 'assets/bgpic/idukkibg.jpg';
+String kl07 = 'assets/bgpic/kochibg.jpg';
+String kl08 = 'assets/bgpic/tcrbg.jpg';
+String kl09 = 'assets/bgpic/pkdbg.jpg';
+String kl10 = 'assets/bgpic/mlpmbg.jpg';
+String kl11 = 'assets/bgpic/calicutbg.jpg';
+String kl12 = 'assets/bgpic/wayndbg.jpg';
+String kl13 = 'assets/bgpic/kannurbg.jpg';
+String kl14 = 'assets/bgpic/ksdbg.jpg';
+
 //HEADLINES
 
 String sreeTitle =

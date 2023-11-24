@@ -1,6 +1,7 @@
 import 'package:explore_keralam/screens/alappuzha.dart';
 import 'package:explore_keralam/screens/calicut.dart';
 import 'package:explore_keralam/screens/ekm.dart';
+import 'package:explore_keralam/screens/homeScreen.dart';
 import 'package:explore_keralam/screens/idukki.dart';
 import 'package:explore_keralam/screens/kannur.dart';
 import 'package:explore_keralam/screens/kollam.dart';
@@ -9,8 +10,6 @@ import 'package:explore_keralam/screens/ksd.dart';
 import 'package:explore_keralam/screens/malappuram.dart';
 import 'package:explore_keralam/screens/palakkad.dart';
 import 'package:explore_keralam/screens/pathanamthitta.dart';
-import 'package:explore_keralam/screens/splashScreen.dart';
-import 'package:explore_keralam/screens/homeScreen.dart';
 import 'package:explore_keralam/screens/trissur.dart';
 import 'package:explore_keralam/screens/tvm.dart';
 import 'package:explore_keralam/screens/wayanad.dart';
@@ -36,11 +35,12 @@ class MyApp extends StatelessWidget {
         '/malappurampage': (context) => Malappuram(),
         '/clctpage': (context) => Kozhikode(),
         '/wayanadpage': (context) => Wayanad(),
-         '/kannurpage': (context) => Kannur(),
-         '/ksdpage': (context) => Kasargod(),
+        '/kannurpage': (context) => Kannur(),
+        '/ksdpage': (context) => Kasargod(),
       },
       debugShowCheckedModeBanner: false,
-      home: const SplashScreen(),
+      home: HomeScreen(),
+      initialRoute: '/homePage',
     );
   }
 }

@@ -27,7 +27,9 @@ class Deatails extends StatelessWidget {
               TyperAnimatedText(
                 firstHead,
                 textStyle: const TextStyle(
-                    color: Color.fromARGB(255, 8, 30, 41), fontSize: 25),
+                  color: Colors.grey,
+                  fontSize: 25,
+                ),
               ),
             ],
           ),

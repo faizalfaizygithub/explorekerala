@@ -2,28 +2,26 @@ import 'package:flutter/material.dart';
 
 class Districts extends StatelessWidget {
   final String buttonText;
+  final String bgpic;
   final void Function() buttonAction;
-  const Districts({required this.buttonText, required this.buttonAction});
+  const Districts({
+    required this.buttonText,
+    required this.buttonAction,
+    required this.bgpic,
+  });
 
   @override
   Widget build(BuildContext context) {
-    return ListTile(
-      leading: Icon(Icons.forward),
-      minLeadingWidth: 4,
-      title: ElevatedButton(
-        style: ButtonStyle(
-          backgroundColor: MaterialStateProperty.all(
-            Color.fromARGB(136, 10, 86, 88),
+    return Card(
+      shadowColor: Colors.black,
+      margin: EdgeInsets.all(30),
+      child: Column(
+        children: [
+          TextButton(
+            onPressed: buttonAction,
+            child: Image.asset(bgpic),
           ),
-        ),
-        onPressed: buttonAction,
-        child: Text(
-          buttonText,
-          style: const TextStyle(
-            fontSize: 20,
-            color: Colors.white,
-          ),
-        ),
+        ],
       ),
     );
   }
