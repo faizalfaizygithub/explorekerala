@@ -1,9 +1,8 @@
 import 'dart:async';
 
 import 'package:explore_keralam/assets.dart';
+import 'package:explore_keralam/screens/firstpage.dart';
 import 'package:flutter/material.dart';
-
-import 'homeScreen.dart';
 
 class SplashScreen extends StatefulWidget {
   const SplashScreen({super.key});
@@ -21,7 +20,7 @@ class _SplashScreeState extends State<SplashScreen> {
       () => Navigator.pushReplacement(
         context,
         MaterialPageRoute(
-          builder: (context) => HomeScreen(),
+          builder: (context) => const HomePage(),
         ),
       ),
     );

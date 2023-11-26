@@ -7,7 +7,7 @@ class Pathanamthitta extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        backgroundColor: Colors.black54,
+        backgroundColor: Colors.green.shade700,
         elevation: 10,
         title: const Text(
           'Pathanamthitta',
@@ -44,14 +44,7 @@ class Pathanamthitta extends StatelessWidget {
               caption: churchtitles,
               heading: '5. Paliakara Church',
               photo: churchpic),
-          ElevatedButton.icon(
-              style: ButtonStyle(
-                  backgroundColor: MaterialStateProperty.all(Colors.black54)),
-              onPressed: () {
-                Navigator.pop(context);
-              },
-              icon: Icon(Icons.arrow_back_outlined),
-              label: Text('Back'))
+          const BackButton(),
         ],
       ),
     );

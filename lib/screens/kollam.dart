@@ -3,11 +3,13 @@ import 'package:explore_keralam/details.dart';
 import 'package:flutter/material.dart';
 
 class Kollam extends StatelessWidget {
+  const Kollam({super.key});
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        backgroundColor: Colors.black54,
+        backgroundColor: Colors.green.shade700,
         elevation: 10,
         title: const Text(
           'Kollam',
@@ -44,14 +46,7 @@ class Kollam extends StatelessWidget {
               caption: laketitles,
               heading: '5. Ashtamudi Lake',
               photo: lakepic),
-          ElevatedButton.icon(
-              style: ButtonStyle(
-                  backgroundColor: MaterialStateProperty.all(Colors.black54)),
-              onPressed: () {
-                Navigator.pop(context);
-              },
-              icon: Icon(Icons.arrow_back_outlined),
-              label: Text('Back'))
+          BackButton(),
         ],
       ),
     );

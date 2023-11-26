@@ -9,7 +9,7 @@ class Kottayam extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        backgroundColor: Colors.black54,
+        backgroundColor: Colors.green.shade700,
         elevation: 10,
         title: const Text(
           'Kottayam',

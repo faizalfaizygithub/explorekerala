@@ -1,5 +1,6 @@
 import 'package:explore_keralam/assets.dart';
 import 'package:explore_keralam/districtNames.dart';
+import 'package:explore_keralam/drawerList.dart';
 import 'package:flutter/material.dart';
 
 class HomeScreen extends StatelessWidget {
@@ -8,6 +9,7 @@ class HomeScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      backgroundColor: Colors.green.shade700,
       appBar: AppBar(
         actions: [
           IconButton(
@@ -16,8 +18,8 @@ class HomeScreen extends StatelessWidget {
           ),
         ],
         centerTitle: true,
-        elevation: 10,
-        backgroundColor: Colors.black,
+        elevation: 0,
+        backgroundColor: Colors.green.shade700,
         title: const Text(
           'Select your Place',
           style: TextStyle(fontSize: 25),
@@ -141,7 +143,16 @@ class HomeScreen extends StatelessWidget {
           Gyap(gyap: 20),
         ],
       ),
-      drawer: Drawer(),
+      drawer: Center(
+        child: Container(
+          height: 450,
+          width: 300,
+          child: const Drawer(
+            backgroundColor: Colors.black,
+            child: DrawerList(),
+          ),
+        ),
+      ),
     );
   }
 }
