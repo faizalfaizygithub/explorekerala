@@ -1,6 +1,12 @@
 //dp
 String dp1 = 'assets/images/map.jpg';
 String dp2 = 'assets/images/keralam.jpg';
+String dp3 = 'assets/bgpic/bg.webp';
+String dp4 = 'assets/bgpic/gif2.gif';
+String dp5 = 'assets/bgpic/gifpic.gif';
+String dp6 = 'assets/bgpic/pic2.png';
+String dp7 = 'assets/bgpic/pic5.jpg';
+String dp8 = 'assets/bgpic/pic6.jpg';
 
 //tvm
 String sreepic = 'assets/images/sree.jpg';

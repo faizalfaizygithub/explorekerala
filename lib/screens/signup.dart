@@ -1,4 +1,5 @@
 import 'package:explore_keralam/buttons.dart';
+import 'package:explore_keralam/screens/homeScreen.dart';
 import 'package:flutter/material.dart';
 
 class SignUpPage extends StatelessWidget {
@@ -23,9 +24,7 @@ class SignUpPage extends StatelessWidget {
                   fontStyle: FontStyle.italic,
                   fontWeight: FontWeight.bold),
             ),
-            const SizedBox(
-              height: 20,
-            ),
+            Gyap(gyap: 20),
             const TextField(
               keyboardType: TextInputType.text,
               enabled: true,
@@ -65,9 +64,7 @@ class SignUpPage extends StatelessWidget {
                   ),
                   suffixText: 'OK'),
             ),
-            const SizedBox(
-              height: 20,
-            ),
+            Gyap(gyap: 20),
             const TextField(
               keyboardType: TextInputType.text,
               enabled: true,
@@ -104,9 +101,7 @@ class SignUpPage extends StatelessWidget {
                   ),
                   suffixText: 'OK'),
             ),
-            const SizedBox(
-              height: 20,
-            ),
+            Gyap(gyap: 20),
             const TextField(
               maxLength: 8,
               keyboardType: TextInputType.text,
@@ -139,9 +134,7 @@ class SignUpPage extends StatelessWidget {
                   ),
                   suffixText: 'OK'),
             ),
-            const SizedBox(
-              height: 20,
-            ),
+            Gyap(gyap: 20),
             const TextField(
               maxLength: 8,
               keyboardType: TextInputType.text,
@@ -174,9 +167,7 @@ class SignUpPage extends StatelessWidget {
                   ),
                   suffixText: 'OK'),
             ),
-            const SizedBox(
-              height: 20,
-            ),
+            Gyap(gyap: 20),
             Row(mainAxisAlignment: MainAxisAlignment.spaceAround, children: [
               ElevatedButtons(
                 buttonAction: () {

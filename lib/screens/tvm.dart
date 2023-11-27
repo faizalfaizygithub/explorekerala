@@ -1,4 +1,5 @@
 import 'package:explore_keralam/assets.dart';
+import 'package:explore_keralam/backbutton.dart';
 import 'package:explore_keralam/details.dart';
 import 'package:flutter/material.dart';
 
@@ -46,7 +47,7 @@ class Tvm extends StatelessWidget {
               caption: damtitles,
               heading: '5. Neyyar Dam',
               photo: dampic),
-          BackButton()
+          BackToHomeButton()
         ],
       ),
     );

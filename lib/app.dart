@@ -25,12 +25,12 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(routes: {
-      '/firstPage': (context) => HomePage(),
-      '/loginPage': (context) => LoginPage(),
-      '/signupPage': (context) => SignUpPage(),
+      '/firstPage': (context) => const HomePage(),
+      '/loginPage': (context) => const LoginPage(),
+      '/signupPage': (context) => const SignUpPage(),
       '/homePage': (context) => const HomeScreen(),
-      '/tvmPage': (context) => Tvm(),
-      '/kollampage': (context) => Kollam(),
+      '/tvmPage': (context) => const Tvm(),
+      '/kollampage': (context) => const Kollam(),
       '/pathanamthittapage': (context) => Pathanamthitta(),
       '/alappypage': (context) => Alappuzha(),
       '/kottayampage': (context) => const Kottayam(),
@@ -41,7 +41,7 @@ class MyApp extends StatelessWidget {
       '/malappurampage': (context) => Malappuram(),
       '/clctpage': (context) => Kozhikode(),
       '/wayanadpage': (context) => Wayanad(),
-      '/kannurpage': (context) => Kannur(),
+      '/kannurpage': (context) => const Kannur(),
       '/ksdpage': (context) => Kasargod(),
     }, debugShowCheckedModeBanner: false, home: const SplashScreen());
   }

@@ -28,7 +28,6 @@ class _SplashScreeState extends State<SplashScreen> {
 
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Colors.white,
       body: Column(
         mainAxisAlignment: MainAxisAlignment.center,
         crossAxisAlignment: CrossAxisAlignment.center,
@@ -37,7 +36,7 @@ class _SplashScreeState extends State<SplashScreen> {
             child: Image.asset(dp1),
           ),
           const Text(
-            'Kerala Tourism',
+            'Kerala Tourism App',
             style: TextStyle(
                 fontSize: 30,
                 fontStyle: FontStyle.italic,

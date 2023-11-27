@@ -28,7 +28,7 @@ Widget list({
       onPressed: action,
       child: Text(
         txt,
-        style: TextStyle(fontSize: 20, color: Colors.green.shade500),
+        style: TextStyle(fontSize: 20, color: Colors.green.shade700),
       ),
     ),
   );

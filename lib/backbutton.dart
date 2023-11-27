@@ -1,8 +1,6 @@
 import 'package:flutter/material.dart';
 
-class BackButton extends StatelessWidget {
-  const BackButton({super.key});
-
+class BackToHomeButton extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return ElevatedButton.icon(
@@ -13,7 +11,9 @@ class BackButton extends StatelessWidget {
         Navigator.pop(context);
       },
       icon: Icon(Icons.arrow_back_outlined),
-      label: Text('Back'),
+      label: Text(
+        'Back',
+      ),
     );
   }
 }

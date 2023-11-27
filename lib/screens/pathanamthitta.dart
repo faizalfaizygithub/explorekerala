@@ -1,4 +1,5 @@
 import 'package:explore_keralam/assets.dart';
+import 'package:explore_keralam/backbutton.dart';
 import 'package:explore_keralam/details.dart';
 import 'package:flutter/material.dart';
 
@@ -11,7 +12,9 @@ class Pathanamthitta extends StatelessWidget {
         elevation: 10,
         title: const Text(
           'Pathanamthitta',
-          style: TextStyle(fontSize: 25, fontStyle: FontStyle.italic),
+          style: TextStyle(
+            fontSize: 25,
+          ),
         ),
       ),
       body: ListView(
@@ -44,7 +47,7 @@ class Pathanamthitta extends StatelessWidget {
               caption: churchtitles,
               heading: '5. Paliakara Church',
               photo: churchpic),
-          const BackButton(),
+          BackToHomeButton()
         ],
       ),
     );

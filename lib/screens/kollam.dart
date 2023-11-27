@@ -1,4 +1,5 @@
 import 'package:explore_keralam/assets.dart';
+import 'package:explore_keralam/backbutton.dart';
 import 'package:explore_keralam/details.dart';
 import 'package:flutter/material.dart';
 
@@ -13,7 +14,9 @@ class Kollam extends StatelessWidget {
         elevation: 10,
         title: const Text(
           'Kollam',
-          style: TextStyle(fontSize: 25, fontStyle: FontStyle.italic),
+          style: TextStyle(
+            fontSize: 25,
+          ),
         ),
       ),
       body: ListView(
@@ -46,7 +49,7 @@ class Kollam extends StatelessWidget {
               caption: laketitles,
               heading: '5. Ashtamudi Lake',
               photo: lakepic),
-          BackButton(),
+          BackToHomeButton()
         ],
       ),
     );

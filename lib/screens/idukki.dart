@@ -1,4 +1,5 @@
 import 'package:explore_keralam/assets.dart';
+import 'package:explore_keralam/backbutton.dart';
 import 'package:explore_keralam/details.dart';
 import 'package:flutter/material.dart';
 
@@ -11,7 +12,9 @@ class Idukki extends StatelessWidget {
         elevation: 10,
         title: const Text(
           'Idukki',
-          style: TextStyle(fontSize: 25, fontStyle: FontStyle.italic),
+          style: TextStyle(
+            fontSize: 25,
+          ),
         ),
       ),
       body: ListView(
@@ -45,14 +48,7 @@ class Idukki extends StatelessWidget {
               caption: chinnartitles,
               heading: '5. Chinnar WildlIife Sanctuary',
               photo: chinnarpic),
-          ElevatedButton.icon(
-              style: ButtonStyle(
-                  backgroundColor: MaterialStateProperty.all(Colors.black54)),
-              onPressed: () {
-                Navigator.pop(context);
-              },
-              icon: Icon(Icons.arrow_back_outlined),
-              label: Text('Back'))
+          BackToHomeButton()
         ],
       ),
     );
